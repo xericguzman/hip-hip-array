@@ -1,37 +1,27 @@
 /* This assignment will give you some practice with creating arrays and using their methods. */
 
-/* Please note that his is NOT a function-based challenge (aside from your challenge banner function). Everything should be in the global scope--this means you will benefit from using `for` loops instead of `while`. */
-
-
-// Challenge 0
-//
-// Challenge banner time! Write a function that console.logs "####### Challenge n #######", where n is the number passed into the function.
-//
-// Call this function before each of the below challenges, passing in the number of the current challenge.
+// ANY time you're asked to print something from the  array, do it with a loop, printing each item you're asked to print INDIVIDUALLY.
+// 
 // 
 //
 // Challenge 1
 //
 // Loop through the following array, console.logging out each value.
 const students = [
-  'Bogdan',
-  'Carlos',
-  'David',
-  'Denis',
-  'Jumary',
-  'Marc',
-  'Deaundre',
-  'LaToddra',
-  'Michael',
+  'Tre',
+  'Sonny',
+  'Crystal',
+  'Ilyas',
+  'Greg',
+  'Fernando',
+  'Timothy',
   'Patrick',
-  'Sharod',
-  'Tyrell',
-  'Wilson',
+  'Steve',
 ];
 
 
 // Challenge 2
-// Loop through the following array BACKWARDS, console.logging out each value. 64 should be first and 100 last.
+// Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
 
 
@@ -41,7 +31,7 @@ const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
 
 // Challenge 4
-// Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four of them!
+// Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 
 
@@ -56,7 +46,7 @@ const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 
 
 // Challenge 7
-// Make a NEW array with 5 values of your choice, using the same syntax as the arrays from the previous 6 challenges, that is, every value should be placed within the square brackets.  Now console.log out each value individually.
+// Make a NEW array with 5 values of your choice, using the same syntax as the array creation from the previous 6 challenges; that is, every value should be placed within the square brackets.  Now console.log out each value individually.
 
 
 // Challenge 8
@@ -68,15 +58,15 @@ const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 
 
 // Challenge 10
-// Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy indivudally.
+// Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
 
 
 // Challenge 11
-// Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the two arrays are the same, because `slice` does NOT modify the original array.
+// Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
 
 
 // Challenge 12
-// Pull the items at the 4th-6th indices (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
+// Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
 
 
@@ -89,6 +79,6 @@ const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimet
 
 
 // Challenge 15
-// Use .concat to combine the following two arrays into a NEW array you make. Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
+// Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
