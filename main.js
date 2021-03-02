@@ -17,6 +17,10 @@ const students = [
   'Timothy',
   'Patrick',
   'Steve',
+  'Jimothy',
+  'Pat',
+  'Arnold',
+  'Andy'
 ];
 
 
